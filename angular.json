@@ -27,17 +27,59 @@
               "src/assets"
             ],
             "styles": [
+              "src/assets/bower_components/bootstrap/css/bootstrap.min.css",
+              "src/assets/icon/font-awesome/css/font-awesome.min.css",
+              "src/assets/icon/themify-icons/themify-icons.css",
+              "src/assets/icon/icofont/css/icofont.css",
+              "src/assets/pages/flag-icon/flag-icon.min.css",
+              "src/assets/pages/menu-search/css/component.css",
+              "src/assets/pages/dashboard/horizontal-timeline/css/style.css",
+              "src/assets/pages/dashboard/amchart/css/amchart.css",
+              "src/assets/pages/flag-icon/flag-icon.min.css",
+              "src/assets/css/style.css",
+              "src/assets/css/linearicons.css",
+              "src/assets/css/simple-line-icons.css",
+              "src/assets/css/ionicons.css",
+              "src/assets/css/jquery.mCustomScrollbar.css",
               "src/styles.css"
             ],
-            "scripts": []
+            "scripts": [
+              "src/assets/bower_components/jquery/js/jquery.min.js",
+              "src/assets/bower_components/jquery-ui/js/jquery-ui.min.js",
+              "src/assets/bower_components/popper.js/js/popper.min.js",
+              "src/assets/bower_components/bootstrap/js/bootstrap.min.js",
+              "src/assets/bower_components/jquery-slimscroll/js/jquery.slimscroll.js",
+              "src/assets/bower_components/modernizr/js/modernizr.js",
+              "src/assets/bower_components/modernizr/js/css-scrollbars.js",
+              "src/assets/bower_components/classie/js/classie.js",
+              "src/assets/bower_components/d3/js/d3.js",
+              "src/assets/bower_components/rickshaw/js/rickshaw.js",
+              "src/assets/bower_components/raphael/js/raphael.min.js",
+              "src/assets/bower_components/morris.js/js/morris.js",
+              "src/assets/bower_components/i18next/js/i18next.min.js",
+              "src/assets/bower_components/i18next-xhr-backend/js/i18nextXHRBackend.min.js",
+              "src/assets/bower_components/i18next-browser-languagedetector/js/i18nextBrowserLanguageDetector.min.js",
+              "src/assets/bower_components/jquery-i18next/js/jquery-i18next.min.js",
+              "src/assets/pages/dashboard/horizontal-timeline/js/main.js",
+              "src/assets/pages/dashboard/amchart/js/amcharts.js",
+              "src/assets/pages/dashboard/amchart/js/serial.js",
+              "src/assets/pages/dashboard/amchart/js/light.js",
+              "src/assets/pages/dashboard/amchart/js/custom-amchart.js",
+              "src/assets/pages/dashboard/custom-dashboard.js",
+              "src/assets/js/script.js",
+              "src/assets/js/pcoded.min.js",
+              "src/assets/js/demo-12.js",
+              "src/assets/js/jquery.mCustomScrollbar.concat.min.js",
+              "src/assets/js/jquery.mousewheel.min.js"
+            ]
           },
           "configurations": {
             "production": {
               "budgets": [
                 {
                   "type": "initial",
-                  "maximumWarning": "500kb",
-                  "maximumError": "1mb"
+                  "maximumWarning": "2mb",
+                  "maximumError": "5mb"
                 },
                 {
                   "type": "anyComponentStyle",
